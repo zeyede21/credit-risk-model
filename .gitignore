@@ -41,7 +41,6 @@ ENV/
 # 📈 REPORTS
 # ---------------------
 *profile_report.html
-*eda_report.html
 
 # ---------------------
 # 🔧 MLFlow Artifacts
