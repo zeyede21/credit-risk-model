@@ -1,0 +1,72 @@
+# ---------------------
+# 💾 DATA
+# ---------------------
+/data/*.csv
+/data/raw/*
+/data/processed/*
+
+# Never commit raw or sensitive customer data
+
+# ---------------------
+# 📓 NOTEBOOK CHECKPOINTS
+# ---------------------
+.ipynb_checkpoints
+
+# ---------------------
+# 🐍 PYTHON & ENV FILES
+# ---------------------
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+*.pkl
+*.log
+
+# ---------------------
+# ⚙️ ENVIRONMENTS
+# ---------------------
+myenvv/
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter environments
+.ipynb_checkpoints
+*.ipynb~
+.DS_Store
+
+# ---------------------
+# 📈 REPORTS
+# ---------------------
+*profile_report.html
+*eda_report.html
+
+# ---------------------
+# 🔧 MLFlow Artifacts
+# ---------------------
+mlruns/
+mlartifacts/
+
+# ---------------------
+# 📦 PYTHON PACKAGE FILES
+# ---------------------
+*.whl
+*.tar.gz
+
+# ---------------------
+# 🐳 DOCKER
+# ---------------------
+*.db
+*.pid
+*.sock
+*.log
+*.pid
+
+# ---------------------
+# 📦 IDE SETTINGS
+# ---------------------
+.vscode/
+.idea/
+*.sublime-workspace
