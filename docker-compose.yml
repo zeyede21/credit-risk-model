@@ -18,6 +18,6 @@ services:
     environment:
       - MLFLOW_TRACKING_URI=http://mlflow:5000
       - MODEL_NAME=credit_risk_model
-      - MODEL_VERSION=3
+      - MODEL_VERSION=5
     depends_on:
       - mlflow
